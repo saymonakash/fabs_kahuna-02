@@ -977,6 +977,10 @@ video {
   padding: 1rem;
 }
 
+.p-11{
+  padding: 2.75rem;
+}
+
 .py-16{
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1040,6 +1044,14 @@ video {
 
 .pt-10{
   padding-top: 2.5rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
+}
+
+.pb-1{
+  padding-bottom: 0.25rem;
 }
 
 .text-center{
@@ -1131,17 +1143,16 @@ video {
     padding-right: 2.25rem;
   }
 
-  .sm\:py-4{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
   .sm\:pb-14{
     padding-bottom: 3.5rem;
   }
 
   .sm\:pb-20{
     padding-bottom: 5rem;
+  }
+
+  .sm\:pt-10{
+    padding-top: 2.5rem;
   }
 
   .sm\:text-xl{
@@ -1188,6 +1199,10 @@ video {
     display: block;
   }
 
+  .md\:flex{
+    display: flex;
+  }
+
   .md\:hidden{
     display: none;
   }
@@ -1216,6 +1231,10 @@ video {
     padding: 2.5rem;
   }
 
+  .md\:p-16{
+    padding: 4rem;
+  }
+
   .md\:py-16{
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -1240,6 +1259,10 @@ video {
 
   .md\:pl-5{
     padding-left: 1.25rem;
+  }
+
+  .md\:pb-20{
+    padding-bottom: 5rem;
   }
 }
 
@@ -1296,10 +1319,18 @@ video {
     gap: 1.5rem;
   }
 
+  .lg\:gap-14{
+    gap: 3.5rem;
+  }
+
   .lg\:space-x-14 > :not([hidden]) ~ :not([hidden]){
     --tw-space-x-reverse: 0;
     margin-right: calc(3.5rem * var(--tw-space-x-reverse));
     margin-left: calc(3.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:p-28{
+    padding: 7rem;
   }
 
   .lg\:px-\[10\%\]{
@@ -1315,6 +1346,11 @@ video {
   .lg\:py-32{
     padding-top: 8rem;
     padding-bottom: 8rem;
+  }
+
+  .lg\:py-28{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 
   .lg\:pt-28{
