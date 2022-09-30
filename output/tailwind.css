@@ -730,6 +730,10 @@ video {
   max-height: 7rem;
 }
 
+.min-h-600{
+  min-height: 600px;
+}
+
 .min-h-315{
   min-height: 315px;
 }
@@ -897,12 +901,6 @@ video {
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
-.space-x-6 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .overflow-hidden{
   overflow: hidden;
 }
@@ -977,10 +975,6 @@ video {
   padding: 1rem;
 }
 
-.p-11{
-  padding: 2.75rem;
-}
-
 .py-16{
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1034,24 +1028,12 @@ video {
   padding-bottom: 1.75rem;
 }
 
-.pt-11{
-  padding-top: 2.75rem;
-}
-
-.pb-16{
-  padding-bottom: 4rem;
-}
-
-.pt-10{
-  padding-top: 2.5rem;
-}
-
 .pt-5{
   padding-top: 1.25rem;
 }
 
-.pb-1{
-  padding-bottom: 0.25rem;
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .text-center{
@@ -1114,6 +1096,10 @@ video {
     display: block;
   }
 
+  .sm\:h-screen{
+    height: 100vh;
+  }
+
   .sm\:max-h-660{
     max-height: 660px;
   }
@@ -1145,10 +1131,6 @@ video {
 
   .sm\:pb-14{
     padding-bottom: 3.5rem;
-  }
-
-  .sm\:pb-20{
-    padding-bottom: 5rem;
   }
 
   .sm\:pt-10{
@@ -1199,10 +1181,6 @@ video {
     display: block;
   }
 
-  .md\:flex{
-    display: flex;
-  }
-
   .md\:hidden{
     display: none;
   }
@@ -1231,10 +1209,6 @@ video {
     padding: 2.5rem;
   }
 
-  .md\:p-16{
-    padding: 4rem;
-  }
-
   .md\:py-16{
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -1245,8 +1219,8 @@ video {
     padding-bottom: 0px;
   }
 
-  .md\:pt-16{
-    padding-top: 4rem;
+  .md\:pb-20{
+    padding-bottom: 5rem;
   }
 
   .md\:pr-5{
@@ -1259,10 +1233,6 @@ video {
 
   .md\:pl-5{
     padding-left: 1.25rem;
-  }
-
-  .md\:pb-20{
-    padding-bottom: 5rem;
   }
 }
 
@@ -1323,19 +1293,14 @@ video {
     gap: 3.5rem;
   }
 
-  .lg\:space-x-14 > :not([hidden]) ~ :not([hidden]){
-    --tw-space-x-reverse: 0;
-    margin-right: calc(3.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(3.5rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .lg\:p-28{
-    padding: 7rem;
-  }
-
   .lg\:px-\[10\%\]{
     padding-left: 10%;
     padding-right: 10%;
+  }
+
+  .lg\:py-28{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 
   .lg\:py-0{
@@ -1346,11 +1311,6 @@ video {
   .lg\:py-32{
     padding-top: 8rem;
     padding-bottom: 8rem;
-  }
-
-  .lg\:py-28{
-    padding-top: 7rem;
-    padding-bottom: 7rem;
   }
 
   .lg\:pt-28{
